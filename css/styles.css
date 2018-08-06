@@ -1,0 +1,389 @@
+body, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/computer.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	display: inline-block;
+	padding: 0 0 400px 0;
+}
+
+button {
+	background: none;
+	color: #EEEEEE;
+	width: 240px;
+	height: 50px;
+	border: 2px solid #EEEEEE;
+	font-size: 20px;
+	border-radius: 35px;
+	transition: .6px;
+	overflow: hidden;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+button:hover {
+	transition: 1s;
+	width: 180px;
+	font-size: 18px;
+}
+
+p {
+	text-align: center;
+}
+
+h2, h3 {
+	padding: 20px 0 0 0;
+}
+
+footer p {
+	color: #212121;
+	font-size: 15px;
+	padding: 0 0 0 0;
+}
+
+
+/* ---------------- Image  ---------------- */
+img.logo-services, img.logo-contacts {
+	width: 3.5%;
+	height: 3.5%;
+	padding: 20px 5px 70px 5px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+img.profile-picture {
+	width: 10%;
+	height: 10%;
+	border-radius: 100px;
+	border: 3px solid #BDBDBD;
+	margin: 20px 0 20px 0;
+}
+img.icon-skills {
+	width: 25%;
+	height: 25%;
+}
+
+img.img-projects {
+	width: 100%;
+	height: 100%;
+}
+img.img-projects:hover {
+	transition: .5s;
+	filter: blur(5px);
+}
+img.img-projects p:hover {
+	transition: 1s;
+	text-align: center;
+	color: black;
+}
+img.btn-icon {
+	width: 50px;
+	height: 50px;
+}
+img.btn-icon {
+	width: 35px;
+	height: 35px;
+}
+/* ---------------- Image  ---------------- */
+
+
+
+
+
+
+
+/* ---------------- Header titles ---------------- */
+.wrapper {
+	padding-top: 80px;
+}
+.wrapper h1 {
+	color: #F5F5F5;
+	text-align: center;
+	font-size: 35px;
+}
+.wrapper p {
+	color: #F5F5F5;
+}
+.wrapper div {
+	background-color: rgba(0 , 0, 0, 0.5);
+}
+
+p.intro {
+	color: #E1DBDB;
+	font-size: 30px;
+	text-align: center;	
+}
+p.greetings {
+	color: #E1DBDB;
+	font-size: 40px;
+	text-align: center;	
+}
+p.links {
+	text-align: center;	
+	padding: 10px 0 10px 0;
+}
+p.btn_link {
+	text-align: center;	
+	
+}
+
+/* ---------------- Header titles ---------------- */
+
+
+
+
+/* ---------------- Containers ---------------- */
+.container-skills {
+	color: #212121;
+	text-align: center;
+}
+.container-skills h2 {
+	font-size: 30px;
+	padding: 60px 0 20px 0;
+}
+.container-education p , .container-education h2, .container-education h4 {
+	color: #212121;
+	text-align: center;
+}
+.container-education h4 {
+	padding: 20px 0 0 0;
+}
+.container-education h2 {
+	padding: 100px 0 0 0;
+}
+.container-education p {
+	padding: 0 0 100px 0;
+}
+
+
+.container-projects {
+	background-color: #ECEFF1;
+	margin: 0 0 100px 0;
+}
+.container-projects h2 {
+	text-align: center;
+	padding: 60px 0 20px 0;
+}
+
+.button-container {
+	padding: 10px 0 0 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.container, .container h2 {
+	color: #263238;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+.container h2 {
+	font-size: 30px;
+	padding: 40px 0 0 0;
+}
+.container p {
+	font-size: 20px;
+	text-align: center;
+	margin: 20px 200px 20px 200px;
+	padding-bottom: 100px;
+}
+
+.container-footer h2 {
+	font-size: 20px;
+	text-align: center;
+}
+.container-footer {
+	color: #263238;
+	text-align: center;
+}
+.container-footer h4 {
+	padding: 20px 0 0 0;
+}
+
+
+.image-overlay img {
+	width: 20%;
+	height: 20%;
+}
+
+
+.column:hover .overlay {
+	opacity: 2;
+}
+.overlay {
+	position: center;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	transform: translateY(-125%);
+	opacity: 0;
+	transition: .5s ease;
+}
+.text {
+	color: #FAFAFA;
+	font-size: 50px;
+	position: center;
+	text-align: center;
+}
+
+/* ---------------- Containers ---------------- */
+
+
+
+
+
+/*------------ Animations -------------*/
+.animate {
+	transform: 2s ease-in-out;
+	-moz-transform: 2s ease-in-out;
+	-webkit-transform: 2s ease-in-out;
+}
+
+	
+
+/*------------ Animations -------------*/
+
+
+
+
+
+
+/* ---------------- Row and Column ---------------- */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	margin-top: 30px;
+	padding: 1.5%;
+	text-align: center;
+	float: right;
+	width: 30.1%;
+}
+.column h2 {
+	font-size: 25px;
+}
+.column p {
+	margin: 0 20px 55px 20px;
+}
+
+/* ---------------- Row and Column ---------------- */
+
+
+
+
+
+
+
+/* ---------------- Mobile Screen Size ---------------- */
+@media screen and (max-width:900px) {
+
+	button {
+		width: 180px;
+		font-size: 15px;
+	}
+	button:hover {
+		width: 190px;
+		font-size: 19px;
+	}
+	header {
+		height: 100%;
+		width: 100%;
+		padding: 20px 0 320px 0;
+		background-attachment: fixed;
+	}
+
+	.wrapper h1 {
+		font-size: 20px;
+	}
+	.container p {
+		font-size: 15px;
+		margin: 10px 20px 10px 20px; 
+	}
+	.container h2 {
+		font-size: 20px;
+	}
+
+	img.profile-picture {
+		width: 25%;
+		height: 25%;
+	}
+	img.logo-services, img.logo-contacts {
+		width: 15%;
+		height: 15%;
+		margin-right: 5px; 
+	}
+
+	img.img-projects {
+		width: 90%;
+		height: 90%;
+	}
+	img.btn-icon {
+		width: 15px;
+		height: 15px;
+	}
+
+
+	.column {
+		padding: 1.5%;
+		text-align: center;
+		float: right;
+		width: 100%;
+	}
+	.column h2 {
+		font-size: 20px;
+	}
+
+	.overlay {
+		width: 100%;
+		transform: translateY(-175%);
+	}
+	.text {
+		font-size: 20px;
+	}
+}
+/* ---------------- Mobile Screen Size ---------------- */
+
+
+/* ---------------- Tablet Screen Size ---------------- */
+@media screen and (max-width: 500px) {
+	.wrapper h1 {
+		font-size: 25px;
+	}
+	p.greetings {
+		font-size: 25px;
+	}
+	p.intro {
+		font-size: 25px;
+	}
+	img.btn-icon {
+		width: 25px;
+		height: 25px;
+	}
+	.container-footer p {
+		font-size: 15px;
+		padding: 0 10px 0 10px;
+	}
+}
+/* ---------------- Tablet Screen Size ---------------- */
